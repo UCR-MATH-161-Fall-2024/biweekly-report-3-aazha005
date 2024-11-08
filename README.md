@@ -7,13 +7,15 @@ In this report I applied SVM models with polynomial and RBF kernels to two diffe
 The make_moons dataset consists of two cresent shaped classes with 200 samples in total. 
 The spiral dataset consists of two intertwined spirals with 200 samples in total. 
 
-Polynomial Kernel:
+<ins>Polynomial Kernel:</ins>
 <br>
 The polynomial kernel maps the data into a higher-dimensional space using polynomial functions.
 <br>
 The formula for the polynomial kernel is:
 <br>
+<br>
 $K(x, x') = (γ \cdot [x, x'] + coefO)^{degree}$
+<br>
 <br>
 where:
 <br>
@@ -22,14 +24,17 @@ where:
 coef0 is a constant to control the influence of higher-order terms
 <br>
 degree is the degree of the polynomial kernel.
-
-RBF (Gaussian) Kernel:
+<br>
+<br>
+<ins>RBF (Gaussian) Kernel:</ins>
 <br>
 The RBF kernel maps the data into an infinite-dimensional feature space.
 <br>
 The formula for the RBF kernel is:
 <br>
+<br>
 $K(x, x') = exp(-γ||x-x'||^{degree})$
+<br>
 <br>
 where:
 <br>
